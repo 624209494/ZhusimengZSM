@@ -1,0 +1,1 @@
+include ':app', ':shipei', ':demo1', ':check_1', ':mydemo2', ':demo2', ':wanandroid'

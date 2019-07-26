@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+<RadioGroup
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="15dp"
+    android:background="@drawable/text_shape_false"
+    android:layout_height="wrap_content">
+
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:button="@null"
+        android:textSize="15dp"
+        android:id="@+id/Radio1"
+        android:gravity="center"
+        android:textColor="@drawable/text_bg"
+        android:background="@drawable/text_selector"
+        android:text="APP潜客"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/Radio2"
+        android:button="@null"
+        android:textColor="@drawable/text_bg"
+        android:background="@drawable/text_selector"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:text="微聊"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:id="@+id/Radio3"
+        android:button="@null"
+        android:textColor="@drawable/text_bg"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:background="@drawable/text_selector"
+        android:text="微信用户"
+        android:layout_height="wrap_content" />
+
+</RadioGroup>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+    </RelativeLayout>
+
+
+</LinearLayout>
